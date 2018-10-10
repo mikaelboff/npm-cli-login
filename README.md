@@ -3,11 +3,14 @@
 Allows you to log in to NPM without STDIN, STDOUT. Use in places like CI build systems.
 Also creates/modifies entries in the ~/.npmrc file for authentication.
 
+## different from https://www.npmjs.com/package/npm-cli-login
+add a --strict flag to enable connect https registry with untrusted SSL certificate 
+
 ### Installation
 
-    npm install -g npm-cli-login
+    npm install -g dhkj-npm-cli-login
 
-Use -g flag to use npm-cli-login via the CLI
+Use -g flag to use dhkj-npm-cli-login via the CLI
 
 ### Usage
 

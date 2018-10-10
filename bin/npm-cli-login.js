@@ -29,7 +29,7 @@ let login = function() {
 
   found = getArg('--strict', true)
   let isStrict = found === -1 ? true : false
-  console.log('is strict =', isStrict)
+
   require('../')(user, pass, email, registry, scope, quotes, configPath, isStrict)
 }
 
