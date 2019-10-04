@@ -1,7 +1,7 @@
 # npm-cli-login
 
 Allows you to log in to NPM without STDIN, STDOUT. Use in places like CI build systems.
-Also creates/modifies entries in the ~/.npmrc file for authentication.
+Also creates/modifies entries in the ~/.npmrc file for authentication.  
 
 ## different from https://www.npmjs.com/package/npm-cli-login
 add a --strict flag to enable connect https registry with untrusted SSL certificate 
