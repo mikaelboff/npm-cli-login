@@ -1,4 +1,4 @@
-# npm-cli-login [![Build Status](https://travis-ci.org/postmanlabs/npm-cli-login.svg?branch=master)](https://travis-ci.org/postmanlabs/npm-cli-login)
+# npm-cli-login
 
 Allows you to log in to NPM without STDIN, STDOUT. Use in places like CI build systems.
 Also creates/modifies entries in the ~/.npmrc file for authentication.
@@ -8,9 +8,9 @@ add a --strict flag to enable connect https registry with untrusted SSL certific
 
 ### Installation
 
-    npm install -g dhkj-npm-cli-login
+    npm install -g mboff-npm-cli-login
 
-Use -g flag to use dhkj-npm-cli-login via the CLI
+Use -g flag to use mboff-npm-cli-login via the CLI
 
 ### Usage
 
